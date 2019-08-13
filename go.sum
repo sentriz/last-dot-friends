@@ -1,0 +1,4 @@
+github.com/pkg/errors v0.8.1 h1:iURUrRGxPUNPdy5/HRSm+Yj6okJ6UtLINN0Q9M4+h3I=
+github.com/pkg/errors v0.8.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
+github.com/shkh/lastfm-go v0.0.0-20180729041255-29483feae857 h1:q7kJEIYmlHvNdUUxDcHdP+HalJMxiUO1ceJho9fe4rE=
+github.com/shkh/lastfm-go v0.0.0-20180729041255-29483feae857/go.mod h1:n3nudMl178cEvD44PaopxH9jhJaQzthSxUzLO5iKMy4=
