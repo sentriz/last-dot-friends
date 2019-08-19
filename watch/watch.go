@@ -55,7 +55,8 @@ func (w *Watcher) fetchUser(name string) (Event, error) {
 }
 
 func (w *Watcher) Watch(ch chan<- Event) {
-	for {
+	ticker := time.NewTicker(w.interval)
+	for range ticker.C {
 		for name := range w.lastEvents {
 			event, err := w.fetchUser(name)
 			if err != nil {
@@ -70,6 +71,5 @@ func (w *Watcher) Watch(ch chan<- Event) {
 			ch <- event
 			w.lastEvents[name] = eventID
 		}
-		time.Sleep(w.interval)
 	}
 }
