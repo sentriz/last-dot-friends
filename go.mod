@@ -1,4 +1,4 @@
-module senan.xyz/g/last-dot-friends
+module go.senan.xyz/last-dot-friends
 
 go 1.12
 

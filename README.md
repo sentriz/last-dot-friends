@@ -2,7 +2,7 @@
 
 ###### installation 
 
-`$ go get -u senan.xyz/g/last-dot-friends/cmd/friends`
+`$ go get -u go.senan.xyz/last-dot-friends/cmd/friends`
 
 ###### usage 
 

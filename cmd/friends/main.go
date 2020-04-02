@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"senan.xyz/g/last-dot-friends/watch"
+	"go.senan.xyz/last-dot-friends/watch"
 )
 
 func main() {
