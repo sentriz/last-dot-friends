@@ -1,25 +1,25 @@
 ### last.friends
 
-###### installation 
+###### installation
 
-`$ go get -u go.senan.xyz/last-dot-friends/cmd/friends`
+`$ go install go.senan.xyz/last-dot-friends/cmd/friends@latest`
 
-###### usage 
+###### usage
 
     $ friends -h
     * usage:
     friends [options] [username]...
-    
+
     * api keys:
     https://www.last.fm/api/account/create
-    
+
     * options:
       -api-key string
-        	last.fm api key (required)
+         last.fm api key (required)
       -api-secret string
-        	last.fm api secret (required)
+         last.fm api secret (required)
       -interval int
-        	time (in seconds) to wait between fetches (default 20)
+         time (in seconds) to wait between fetches (default 20)
 
 ###### api keys
 
