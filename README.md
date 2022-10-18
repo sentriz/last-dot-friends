@@ -39,6 +39,6 @@ last-dot-friends \
     mortalslayer \
     sentriz \
 | while IFS=$'\t' read -r username artist track; do
-    notify-send --icon ~/downloads/lastfm.png "$username" "$artist — $track"
+    notify-send --icon lastfm.svg "$username" "$artist — $track"
 done
 ```
