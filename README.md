@@ -2,13 +2,13 @@
 
 ###### installation
 
-`$ go install go.senan.xyz/last-dot-friends/cmd/friends@latest`
+`$ go install go.senan.xyz/last-dot-friends/cmd/last-dot-friends@latest`
 
 ###### usage
 
-    $ friends -h
+    $ last-dot-friends -h
     * usage:
-    friends [options] [username]...
+    last-dot-friends [options] [username]...
 
     * api keys:
     https://www.last.fm/api/account/create
@@ -28,7 +28,7 @@ get them [here](https://www.last.fm/api/account/create)
 ###### example with desktop notifications
 
 ```bash
-friends \
+last-dot-friends \
     -interval 30 \
     -api-key "my-api-key" \
     -api-secret "my-api-secret" \
